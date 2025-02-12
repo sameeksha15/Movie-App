@@ -1,0 +1,48 @@
+:root {
+    --pink : #e53265;
+    --navbar: #16141c;
+    --field-text: #979bb0;
+    --field: #1e2130;
+    --text: #ffffff;
+    --background-color: #1a1926;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.navbar {
+    background-color: var(--navbar);
+    color: var(--text);
+}
+
+.custom-btn {
+    border-color: var(--pink);
+    color: var(--pink);
+}
+
+.custom-btn:hover {
+    background-color: var(--pink);
+    color: var(--text);
+    border-color: var(--pink);
+}
+
+.card-text {
+    color: var(--field-text);
+}
+
+.card-title {
+    color: var(--text);
+}
+
+.card {
+    background-color: var(--field);
+}
+
+.card-body {
+    padding: 10px;
+}
